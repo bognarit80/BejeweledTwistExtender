@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{a538264d-c905-4f08-b1b3-b4f3d30d6096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mods">
+      <UniqueIdentifier>{0a19eaa9-7df1-4b43-b228-02d4a3b557eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mods">
+      <UniqueIdentifier>{14fe9a5d-6e6b-485a-94a8-5d2a5970ad74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extender">
+      <UniqueIdentifier>{ce5bd272-1ca1-4c9f-8f00-a00078c42dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files\Extender">
+      <UniqueIdentifier>{04dbfcb7-637c-44f6-85e3-1e5b5041e513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lua">
+      <UniqueIdentifier>{e64ffa34-abcf-4037-9a65-e7a5e6ab1a41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mods\mods.cpp">
+      <Filter>Source Files\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="mods\coremod.cpp">
+      <Filter>Source Files\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\Memory-win32.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\SharedObject-win32.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\TrampolineGenerator.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\util.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\CodeAllocator.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\CodeInjectionStream.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\Filesystem-common.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\Filesystem-win32.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\floatfix.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="extender\FuncInterceptor.cpp">
+      <Filter>Source Files\extender</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BejeweledTwist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mods\scriptingmod.cpp">
+      <Filter>Source Files\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptGameFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mods\crashfixmod.cpp">
+      <Filter>Source Files\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="mods\ccwtwist.cpp">
+      <Filter>Source Files\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="mods\autosavemod.cpp">
+      <Filter>Source Files\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldblib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldebug.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldo.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldump.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lfunc.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lgc.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\linit.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\liolib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\llex.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmathlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmem.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loadlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lobject.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lopcodes.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loslib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lparser.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstate.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstring.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstrlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltable.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltablib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltm.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lua.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lundump.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lutf8lib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lvm.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lzio.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lapi.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lauxlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbaselib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcode.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcorolib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lctype.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="mods\aspectratiofix.cpp">
+      <Filter>Source Files\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="mods\multitwist.cpp">
+      <Filter>Source Files\mods</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Engine.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\InterfaceMacros-win32.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Addresses.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\mods.h">
+      <Filter>Header Files\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\coremod.h">
+      <Filter>Header Files\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extender\util.h">
+      <Filter>Include Files\Extender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extender\CodeAllocator.h">
+      <Filter>Include Files\Extender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extender\CodeInjectionStream.h">
+      <Filter>Include Files\Extender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extender\Filesystem.h">
+      <Filter>Include Files\Extender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extender\FuncInterceptor.h">
+      <Filter>Include Files\Extender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extender\LDE64.h">
+      <Filter>Include Files\Extender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extender\Memory.h">
+      <Filter>Include Files\Extender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extender\SharedObject.h">
+      <Filter>Include Files\Extender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extender\TrampolineGenerator.h">
+      <Filter>Include Files\Extender</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BejeweledTwist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\scriptingmod.h">
+      <Filter>Header Files\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptGameFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\crashfixmod.h">
+      <Filter>Header Files\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldebug.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldo.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lfunc.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lgc.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ljumptab.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llex.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llimits.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lmem.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lobject.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lopcodes.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lopnames.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lparser.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lprefix.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstate.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstring.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltable.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltm.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.hpp">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lundump.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lvm.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lzio.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lapi.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lcode.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lctype.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\ccwtwist.h">
+      <Filter>Header Files\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\autosavemod.h">
+      <Filter>Header Files\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\aspectratiofix.h">
+      <Filter>Header Files\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="mods\multitwist.h">
+      <Filter>Header Files\mods</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="extender\LDE64-masm.asm">
+      <Filter>Source Files\extender</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
